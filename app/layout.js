@@ -27,7 +27,7 @@ export default function MainLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${montserrat.className} antialiased mx-4 lg:mx-50`}
+        className={`${montserrat.className} antialiased `}
       >
         {children}
       </body>
