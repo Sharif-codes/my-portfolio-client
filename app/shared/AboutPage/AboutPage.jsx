@@ -12,8 +12,8 @@ import Language from "@/app/components/Language";
 const AboutPage = () => {
   const [selectedTabs, setSelectedTabs] = useState("education")
   return (
-    <div className="h-screen">
-      <h2 className="text-3xl text-center py-8">About <span className="text-orange-500">me</span></h2>
+    <div className="mx-4 lg:mx-50">
+      <h2 className="text-3xl text-center py-8">About <span className="text-orange-500">Me</span></h2>
       <div className="flex gap-16 mt-4">
         <div className="">
           <div className="mt-10">
@@ -40,6 +40,8 @@ const AboutPage = () => {
 
           </div>
         </div>
+
+        {/* About Page start */}
         <div className="">
 
           <AboutTabs setSelectedTabs={setSelectedTabs} selectedTabs={selectedTabs}></AboutTabs>
@@ -70,6 +72,7 @@ const AboutPage = () => {
           }
 
         </div>
+        {/* About Page end */}
 
       </div>
 

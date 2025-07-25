@@ -3,6 +3,7 @@ import IntroPage from "./shared/introPage/IntroPage";
 import Image from "next/image";
 import banner from "../public/bg-photo.jpg"
 import AboutPage from "./shared/AboutPage/AboutPage";
+import SkillsPage from "./shared/SkillsPage/SkillsPage";
 
 export default function Home() {
   return (
@@ -22,8 +23,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mx-4 lg:mx-50 h-full md:h-screen">
+      <div className=" h-full md:h-screen bg-stone-900">
         <AboutPage></AboutPage>
+      </div>
+      <div className="h-full md:h-screen bg-stone-950">
+       <SkillsPage></SkillsPage>
       </div>
     </div>
   );
