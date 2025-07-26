@@ -40,7 +40,7 @@ const Education = () => {
             </div>
 
             <div>
-                <p className="text-orange-400">Secondary Secondary Certificate (SSC)</p>
+                <p className="text-orange-400">Secondary School Certificate (SSC)</p>
                 <div className="text-sm">
                     <div className="flex">
                         <p className="font-medium w-16">Institute</p>

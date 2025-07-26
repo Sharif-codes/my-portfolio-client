@@ -4,8 +4,10 @@ import Image from "next/image";
 import banner from "../public/bg-photo.jpg"
 import AboutPage from "./shared/AboutPage/AboutPage";
 import SkillsPage from "./shared/SkillsPage/SkillsPage";
+import Projects from "./shared/ProjectsPage/Projects";
 
 export default function Home() {
+
   return (
     <div>
       <div className="relative h-full md:h-screen">
@@ -17,17 +19,27 @@ export default function Home() {
           priority
         >
         </Image>
-        <div className="relative z-10 mx-4 lg:mx-50">
-          <Navbar></Navbar>
-          <IntroPage></IntroPage>
-        </div>
+
+        <div className="relative z-10">
+       
+          <div className="fixed top-0 left-0 w-full z-50 shadow-md bg-blend-darken">
+            <Navbar />
+          </div>
+          <div className="pt-20 px-4 lg:px-50">
+            <IntroPage />
+          </div>
+        </div> 
+
       </div>
 
-      <div className=" h-full md:h-screen bg-stone-900">
-        <AboutPage></AboutPage>
+      <div id="about" className=" h-full md:h-screen bg-stone-900">
+        <AboutPage ></AboutPage>
       </div>
-      <div className="h-full md:h-screen bg-stone-950">
-       <SkillsPage></SkillsPage>
+      <div id="skills" className="h-full md:h-screen bg-stone-950">
+        <SkillsPage></SkillsPage>
+      </div>
+      <div id="projects" className="h-full md:h-screen bg-stone-950">
+        <Projects></Projects>
       </div>
     </div>
   );

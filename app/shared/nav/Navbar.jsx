@@ -1,7 +1,8 @@
+import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <div >
+        <div className="" >
             <div className="navbar  ">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -11,10 +12,11 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li> <button>Home</button> </li>
-                            <li><button>About me</button> </li>
-                            <li><button>Skills</button></li>
-                            <li><button>Projects</button></li>
+                            <li> <button><Link href="#home">Home</Link></button> </li>
+                            <li><button><Link href="#about">About me</Link></button> </li>
+                            <li><button><Link href="#skills">Skills</Link></button></li>
+                            <li><button><Link href="#projects">Projects</Link></button></li>
+                            <li><button><Link href="#contact">Contact Me</Link></button></li>
                             <li><button>Download CV</button></li>
                         </ul>
                     </div>
@@ -25,10 +27,11 @@ const Navbar = () => {
                 </div>
                 <div className=" hidden navbar-end lg:flex">
                     <ul className="menu menu-horizontal px-1 space-x-2">
-                        <li><button>Home</button></li>
-                        <li><button>About me</button> </li>
-                        <li><button>Skills</button></li>
-                        <li><button>Projects</button></li>
+                        <li><button><Link href="#home">Home</Link> </button></li>
+                        <li><button><Link href="#about">About me</Link> </button></li>
+                        <li><button><Link href="#skills">Skills</Link></button></li>
+                        <li><button><Link href="#projects">Projects</Link></button></li>
+                        <li><button><Link href="#contact">Contact Me</Link></button></li>
                         <li><button>Download CV</button></li>
                     </ul>
                 </div>

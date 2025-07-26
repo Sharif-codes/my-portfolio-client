@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Domain Hub",
+    "type": "Group Project",
+    "live_link": "https://domain-hub-a81ae.web.app",
+    "client": "https://github.com/khansuhad/domain-hub",
+    "server": "https://github.com/khansuhad/domain-hub-server-side",
+    "photo" : "https://res.cloudinary.com/dyphqdgcx/image/upload/v1753529662/domain-hub_jhtmjj.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Digi Store",
+    "type": "Single Project",
+    "live_link": "https://digi-store-sharif.vercel.app",
+    "client": "https://github.com/Sharif-codes/mobile-shop",
+    "server": "https://github.com/Sharif-codes/mobile-shop-server",
+    "photo" : "https://res.cloudinary.com/dyphqdgcx/image/upload/v1753529980/Screenshot_2025-07-26_173919_y5fzxu.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Building Management",
+    "type": "Single Project",
+    "live_link": "https://auth-integ-private.web.app",
+    "client": "https://github.com/Sharif-codes/to-let-management-client",
+    "server": "https://github.com/Sharif-codes/to-let-management-server",
+    "photo" : "https://res.cloudinary.com/dyphqdgcx/image/upload/v1753533085/building_evlxoc.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Study Management",
+    "type": "Single Project",
+    "live_link": "https://group-study-10c82.web.app",
+    "client": "https://github.com/Sharif-codes/group-study-client",
+    "server": "https://github.com/Sharif-codes/group-study-server",
+    "photo" : "https://res.cloudinary.com/dyphqdgcx/image/upload/v1753533776/Screenshot_2025-07-26_184239_osedyk.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Task Manager",
+    "type": "Single Project",
+    "live_link": "https://task-management-821b9.web.app",
+    "client": "https://github.com/Sharif-codes/task-management-client",
+    "server": "https://github.com/Sharif-codes/task-management-server",
+    "photo" : "https://res.cloudinary.com/dyphqdgcx/image/upload/v1753534435/Screenshot_2025-07-26_185340_puth9t.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Biker Zone",
+    "type": "Single Project (only ui)",
+    "live_link": "https://sharif-codes.github.io/biker-zone-daisyui",
+    "client": "https://github.com/Sharif-codes/biker-zone-daisyui",
+    "server": "",
+    "photo" : "https://res.cloudinary.com/dyphqdgcx/image/upload/v1753539359/Screenshot_2025-07-26_201547_e4u8b1.jpg"
+  }
+ 
+  
+]
