@@ -5,6 +5,7 @@ import banner from "../public/bg-photo.jpg"
 import AboutPage from "./shared/AboutPage/AboutPage";
 import SkillsPage from "./shared/SkillsPage/SkillsPage";
 import Projects from "./shared/ProjectsPage/Projects";
+import Contact from "./shared/ContactPage/Contact";
 
 export default function Home() {
 
@@ -31,15 +32,17 @@ export default function Home() {
         </div> 
 
       </div>
-
-      <div id="about" className=" h-full md:h-screen bg-stone-900">
+      <div id="about" className=" h-full md:h-screen bg-[#1F242D]">
         <AboutPage ></AboutPage>
       </div>
-      <div id="skills" className="h-full md:h-screen bg-stone-950">
+      <div id="skills" className="h-full md:h-screen bg-[#323946]">
         <SkillsPage></SkillsPage>
       </div>
-      <div id="projects" className="h-full md:h-screen bg-stone-950">
+      <div id="projects" className="h-full md:h-screen bg-[#1F242D]">
         <Projects></Projects>
+      </div>
+      <div id="contact" className="h-full md:h-screen bg-[#323946]">
+        <Contact></Contact>
       </div>
     </div>
   );
