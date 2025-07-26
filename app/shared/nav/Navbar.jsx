@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <div className="" >
+        <div className="mx-4 lg:mx-50" >
             <div className="navbar  ">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -26,13 +26,13 @@ const Navbar = () => {
                     <a href=""> Sharif</a>
                 </div>
                 <div className=" hidden navbar-end lg:flex">
-                    <ul className="menu menu-horizontal px-1 space-x-2">
+                    <ul className="menu menu-horizontal px-1">
                         <li><button><Link href="#home">Home</Link> </button></li>
                         <li><button><Link href="#about">About me</Link> </button></li>
                         <li><button><Link href="#skills">Skills</Link></button></li>
                         <li><button><Link href="#projects">Projects</Link></button></li>
                         <li><button><Link href="#contact">Contact Me</Link></button></li>
-                        <li><button>Download CV</button></li>
+                       
                     </ul>
                 </div>
             </div>

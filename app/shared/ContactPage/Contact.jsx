@@ -17,19 +17,21 @@ const Contact = () => {
                         <h2 className='text-orange-500 text-2xl font-semibold'>SHARIF</h2>
                     </div>
                     <div>
-                        <p className='text-justify'>I am professional Web designer. I have designed more than 50 web template for my client. You can hire me for design your personal, business or other website template. You can trust me. I complied your work with your full satisfiction </p>
+                        <p className='text-justify'>I'm a fresh CSE graduate having strong affection to web developement with strong skills in HTML,CSS, JavaScript, Tailwind, React, ExpressJS,MongoDB etc. I have been enhancing my skills by continuously learning new technologies and developing projects by my own for last two years. Looking forward to develop my career as a full-stack web developer. </p>
                     </div>
-                    <div className='flex gap-16 text-2xl'>
-                        <MdWifiCalling3 />
-                        <IoMdMail />
-                        <FaLinkedinIn />
-                        <FaLocationDot />
-                        <FaFacebookF />
+                    <div className='flex gap-12 text-2xl'>
+                        <MdWifiCalling3 className='cursor-pointer' />
+                        <IoMdMail className='cursor-pointer' />
+                        <FaLinkedinIn className='cursor-pointer' />
+                        <FaLocationDot className='cursor-pointer' />
+                        <FaFacebookF className='cursor-pointer' />
                     </div>
                 </div>
                 <div className='w-1/2'>
                     <ContactForm></ContactForm>
                 </div>
+
+                
 
             </div>
         </div>
