@@ -10,7 +10,7 @@ const TypeName = () => {
         <TypeAnimation
                         className="mb-2 md:mb-5 text-xl md:text-3xl font-bold text-orange-500"
                             sequence={[
-                                1500,
+                                500,
                                 () => {
                                     setTypingStatus('Typing...');
                                 },
@@ -19,7 +19,7 @@ const TypeName = () => {
                                 () => {
                                     setTypingStatus('Done Typing');
                                 },
-                                1000,
+                                1500,
                                 () => {
                                     setTypingStatus('Deleting...');
                                 },

@@ -4,7 +4,10 @@ import css from "../../../public/css.png";
 import tailwind from "../../../public/tailwind.png";
 import js from "../../../public/js.png";
 import reactIcon from "../../../public/react.png";
-import GithubIcon from "../../../public//github.png";
+import GithubIcon from "../../../public/github.png";
+import nodeIcon from "../../../public/node.png";
+import mongo from "../../../public/mongo.png";
+
 const SkillsPage = () => {
     const skills = [
         {
@@ -35,7 +38,17 @@ const SkillsPage = () => {
         {
             skillName: "Github",
             logo: GithubIcon,
-            percentage: "70% "
+            percentage: "60% "
+        },
+        {
+            skillName: "Node JS",
+            logo: nodeIcon,
+            percentage: "60%"
+        },
+        {
+            skillName: "MongoDB",
+            logo: mongo,
+            percentage: "50%"
         },
 
     ]

@@ -1,11 +1,11 @@
-import Navbar from "./shared/nav/Navbar";
-import IntroPage from "./shared/introPage/IntroPage";
+import Navbar from "./pages/nav/Navbar";
+import IntroPage from "./pages/introPage/IntroPage";
 import Image from "next/image";
 import banner from "../public/bg-photo.jpg"
-import AboutPage from "./shared/AboutPage/AboutPage";
-import SkillsPage from "./shared/SkillsPage/SkillsPage";
-import Projects from "./shared/ProjectsPage/Projects";
-import Contact from "./shared/ContactPage/Contact";
+import AboutPage from "./pages/AboutPage/AboutPage";
+import SkillsPage from "./pages/SkillsPage/SkillsPage";
+import Projects from "./pages/ProjectsPage/Projects";
+import Contact from "./pages/ContactPage/Contact";
 import { GoMoveToTop } from "react-icons/go";
 import Link from "next/link";
 

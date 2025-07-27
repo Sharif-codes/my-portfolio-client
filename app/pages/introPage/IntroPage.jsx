@@ -38,15 +38,16 @@ const IntroPage = () => {
                    
                 </div>
             </div>
-            <div className="w-1/2 ml-4  flex justify-center">
+            <div className="w-1/2 ml-4  flex justify-center ">
 
                 <Image
 
                     src={img}
                     alt="sharif"
-                    height={350}
+                    height={400}
                     quality={100}
                     placeholder="blur"
+                    className="image-fade-right"
                 >
 
 

@@ -1,32 +1,48 @@
 
 'use client'
+
+import toast from "react-hot-toast";
+
 const ContactForm = () => {
-    const handleContact = (e) => {
+
+    const handleContact = async (e) => {
         e.preventDefault();
         const form = e.target;
-
         const firstName = form.firstName.value;
         const lastName = form.lastName.value;
+        const name = firstName + lastName;
         const phone = form.phone.value;
         const subject = form.subject.value;
         const email = form.email.value;
         const message = form.message.value;
 
-        const formData = { firstName, lastName, phone, subject, email, message }
-        console.log("form data:", formData);
+        const res = await fetch("/api/sendEmail", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                subject,
+                name,
+                email,
+                phone,
+                message,
+            }),
+        });
 
+        const data = await res.json();
+        console.log("mail result: ", data);
+        toast.success("email sent successfully!")
+        form.reset();
     }
     return (
         <form onSubmit={handleContact} className='grid grid-cols-2 gap-4'>
-            <input type="text" name="firstName" className='bg-[#1F242D] p-2 rounded-lg outline-0' placeholder='First Name' />
-            <input type="text" name="lastName" className='bg-[#1F242D] p-2 rounded-lg outline-0' placeholder='Last Name' />
-            <input type="number" name="phone" className='bg-[#1F242D] p-2 rounded-lg outline-0' placeholder='Phone' />
+            <input type="text" name="firstName" className='bg-[#1F242D] p-2 rounded-lg outline-0' placeholder='First Name' required />
+            <input type="text" name="lastName" className='bg-[#1F242D] p-2 rounded-lg outline-0' placeholder='Last Name' required />
+            <input type="number" name="phone" className='bg-[#1F242D] p-2 rounded-lg outline-0' placeholder='Phone' required />
             <input type="text" name="subject" className='bg-[#1F242D] p-2 rounded-lg outline-0' placeholder='Subject' />
+            <input type="email" name="email" className='bg-[#1F242D] p-2 rounded-lg outline-0 col-span-2' placeholder='Email' required />
+            <textarea type="text" name="message" className='bg-[#1F242D] p-2 rounded-lg outline-0 col-span-2' placeholder='Message' required />
 
-            <input type="text" name="email" className='bg-[#1F242D] p-2 rounded-lg outline-0 col-span-2' placeholder='Email' />
-            <textarea type="text" name="message" className='bg-[#1F242D] p-2 rounded-lg outline-0 col-span-2' placeholder='Message' />
-
-            <input type="submit" name="" id="" placeholder='Submit' className='bg-[#1F242D] p-2 rounded-lg outline-0 col-span-2 cursor-pointer hover:bg-orange-500' />
+            <input type="submit" name="" id="" placeholder='Send' className='bg-[#1F242D] p-2 rounded-lg outline-0 col-span-2 cursor-pointer hover:bg-orange-500' />
         </form>
     );
 };

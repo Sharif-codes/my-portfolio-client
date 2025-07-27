@@ -6,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import ContactForm from '@/app/components/ContactForm';
 
 const Contact = () => {
-    console.log("contact page");
+
     return (
         <div className='mx-4 lg:mx-50'>
             <h2 className="text-3xl text-center py-8">Contact <span className="text-orange-500">Me</span></h2>

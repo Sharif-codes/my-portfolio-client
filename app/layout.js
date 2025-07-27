@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "react-hot-toast";
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -18,10 +19,9 @@ export default function MainLayout({ children }) {
       <body
         className={`${montserrat.className} antialiased `}
       >
-        <div className="fixed top-0 left-0 w-full z-50 shadow-md bg-blend-darken">
-          
-          </div>
+        <Toaster/>
         {children}
+        
       </body>
     </html>
   );
