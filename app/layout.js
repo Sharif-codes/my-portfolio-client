@@ -15,9 +15,9 @@ export const metadata = {
 
 export default function MainLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="light">
       <body
-        className={`${montserrat.className} antialiased `}
+        className={`${montserrat.className} antialiased  `}
       >
         <Toaster/>
         {children}

@@ -34,15 +34,15 @@ const ContactForm = () => {
         form.reset();
     }
     return (
-        <form onSubmit={handleContact} className='grid grid-cols-2 gap-4'>
-            <input type="text" name="firstName" className='bg-[#1F242D] p-2 rounded-lg outline-0' placeholder='First Name' required />
-            <input type="text" name="lastName" className='bg-[#1F242D] p-2 rounded-lg outline-0' placeholder='Last Name' required />
-            <input type="number" name="phone" className='bg-[#1F242D] p-2 rounded-lg outline-0' placeholder='Phone' required />
-            <input type="text" name="subject" className='bg-[#1F242D] p-2 rounded-lg outline-0' placeholder='Subject' />
-            <input type="email" name="email" className='bg-[#1F242D] p-2 rounded-lg outline-0 col-span-2' placeholder='Email' required />
-            <textarea type="text" name="message" className='bg-[#1F242D] p-2 rounded-lg outline-0 col-span-2' placeholder='Message' required />
+        <form onSubmit={handleContact} className='grid grid-cols-2 gap-1.5 md:gap-4 text-xs md:text-md'>
+            <input type="text" name="firstName" className='bg-base-300 p-2 rounded-lg outline-0' placeholder='First Name' required />
+            <input type="text" name="lastName" className='bg-base-300 p-2 rounded-lg outline-0' placeholder='Last Name' required />
+            <input type="number" name="phone" className='bg-base-300 p-2 rounded-lg outline-0' placeholder='Phone' required />
+            <input type="text" name="subject" className='bg-base-300 p-2 rounded-lg outline-0' placeholder='Subject' />
+            <input type="email" name="email" className='bg-base-300 p-2 rounded-lg outline-0 col-span-2' placeholder='Email' required />
+            <textarea type="text" name="message" className='bg-base-300 p-2 rounded-lg outline-0 col-span-2' placeholder='Message' required />
 
-            <input type="submit" name="" id="" placeholder='Send' className='bg-[#1F242D] p-2 rounded-lg outline-0 col-span-2 cursor-pointer hover:bg-orange-500' />
+            <input type="submit" name="" id="" placeholder='Send' className='bg-base-300 p-2 rounded-lg outline-0 col-span-2 cursor-pointer hover:bg-orange-500' />
         </form>
     );
 };

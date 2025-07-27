@@ -53,16 +53,16 @@ const SkillsPage = () => {
 
     ]
     return (
-        <div className="mx-4 lg:mx-50">
-            <h2 className="text-3xl text-center py-8">My <span className="text-orange-500">SKills</span></h2>
+        <div className="mx-4 lg:mx-50 py-5 md:py-5">
+            <h2 className="text-xl lg:text-3xl text-center py-4 lg:py-8">My <span className="text-orange-500">SKills</span></h2>
 
             <div className="grid grid-cols-2">
                 {
                     skills?.map(skill =>(
                         
-                        <div key={skill.skillName} className="flex items-center gap-4 p-4 rounded-full w-fit">
+                        <div key={skill.skillName} className="flex items-center gap-2 md:gap-4 p-2 md:p-4 rounded-full w-fit">
                             {/* Icon */}
-                            <div className="w-12 h-12 rounded-full overflow-hidden bg-white p-1">
+                            <div className="w-8 md:w-12 h-8 md:h-12 rounded-full overflow-hidden bg-white p-1">
                                 <Image
                                     src={skill?.logo}
                                     alt="HTML5"
@@ -71,8 +71,8 @@ const SkillsPage = () => {
                             </div>
 
                             {/* Text and Bar */}
-                            <div className="flex-1 min-w-[300px]">
-                                <div className="text-white font-semibold">{skill?.skillName}</div>
+                            <div className="flex-1 min-w-[130px] md:min-w-[300px]">
+                                <div className="text-white font-semibold text-xs md:text-md">{skill?.skillName}</div>
                                 <div className="relative mt-1 h-4 w-full rounded-full bg-gray-800">
                                     <div
                                         className="h-full rounded-full bg-cyan-400"

@@ -8,28 +8,60 @@ const TypeName = () => {
     const [typingStatus, setTypingStatus] = useState('Initializing');
     return (
         <TypeAnimation
-                        className="mb-2 md:mb-5 text-xl md:text-3xl font-bold text-orange-500"
-                            sequence={[
-                                500,
-                                () => {
-                                    setTypingStatus('Typing...');
-                                },
-                                // <p className="text-3xl text-slate-50 font-semibold">MD Shariful Islam Bhuyan</p>,
-                                'MD Shariful Islam Bhuyan',
-                                () => {
-                                    setTypingStatus('Done Typing');
-                                },
-                                1500,
-                                () => {
-                                    setTypingStatus('Deleting...');
-                                },
-                                '',
-                                () => {
-                                    setTypingStatus('Done Deleting');
-                                },
-                            ]}
-                            repeat={Infinity}
-                        />
+            className="mb-2 md:mb-5  font-bold text-orange-500"
+            sequence={[
+                200,
+                () => {
+                    setTypingStatus('Typing...');
+                },
+                // <p className="text-3xl text-slate-50 font-semibold">MD Shariful Islam Bhuyan</p>,
+                'Web Developer',
+                () => {
+                    setTypingStatus('Done Typing');
+                },
+                100,
+                () => {
+                    setTypingStatus('Deleting...');
+                },
+
+                () => {
+                    setTypingStatus('Done Deleting');
+                },
+                500,
+                () => {
+                    setTypingStatus('Typing...');
+                },
+                'React Developer',
+                () => {
+                    setTypingStatus('Done Typing');
+                },
+                100,
+                () => {
+                    setTypingStatus('Deleting...');
+                },
+
+                () => {
+                    setTypingStatus('Done Deleting');
+                },
+                500,
+                () => {
+                    setTypingStatus('Typing...');
+                },
+                'Frontend Developer',
+                () => {
+                    setTypingStatus('Done Typing');
+                },
+                100,
+                () => {
+                    setTypingStatus('Deleting...');
+                },
+
+                () => {
+                    setTypingStatus('Done Deleting');
+                },
+            ]}
+            repeat={Infinity}
+        />
     );
 };
 

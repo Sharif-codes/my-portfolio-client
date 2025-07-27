@@ -8,11 +8,11 @@ import ContactForm from '@/app/components/ContactForm';
 const Contact = () => {
 
     return (
-        <div className='mx-4 lg:mx-50'>
-            <h2 className="text-3xl text-center py-8">Contact <span className="text-orange-500">Me</span></h2>
+        <div className='mx-4 lg:mx-50 py-5 lg:py-0'>
+            <h2 className="text-xl lg:text-3xl text-center py-4 lg:py-8">Contact <span className="text-orange-500">Me</span></h2>
 
-            <div className='mt-10 flex h-full w-full justify-center items-center gap-20'>
-                <div className='w-1/2 space-y-10'>
+            <div className='mt-2 md:mt-10 flex h-full w-full justify-center items-center gap-20'>
+                <div className='w-1/2 hidden md:flex md:flex-col space-y-10'>
                     <div>
                         <h2 className='text-orange-500 text-2xl font-semibold'>SHARIF</h2>
                     </div>
@@ -27,7 +27,9 @@ const Contact = () => {
                         <FaFacebookF className='cursor-pointer' />
                     </div>
                 </div>
-                <div className='w-1/2'>
+
+
+                <div className='w-full md:w-1/2'>
                     <ContactForm></ContactForm>
                 </div>
 
