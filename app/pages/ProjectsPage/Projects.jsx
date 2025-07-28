@@ -1,6 +1,4 @@
 import Image from "next/image";
-import domainHub from "../../../public/domain-hub.jpg"
-import digiStore from "../../../public/digi-store.jpg"
 import projects from "../../../app/data/projectData.json"
 import Link from "next/link";
 
@@ -9,7 +7,7 @@ const Projects = () => {
     return (
         <div className="mx-4 lg:mx-50 py-5 lg:py-0">
             <h2 className="text-xl lg:text-3xl text-center py-3 lg:py-8">My <span className="text-orange-500">Projects</span></h2>
-            <div className="grid grid-cols-3 gap-5 mt-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-5 mt-4">
                 {
                     projects?.map(project => (
 

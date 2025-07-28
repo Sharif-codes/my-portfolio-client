@@ -12,7 +12,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="">
-      <div className="relative h-full min-h-screen m-2 mt-0">
+      <div className="relative h-full md:min-h-screen m-2 mt-0">
         <Image
           src={banner}
           alt="banner"
@@ -28,7 +28,7 @@ export default function Home() {
             <Navbar />
           </div>
 
-          <div className=" h-full pt-20 md:pt-16 py-5 px-3 lg:px-50">
+          <div className=" h-full  md:pt-16 py-16 px-3 lg:px-50">
             <IntroPage />
           </div>
         </div>

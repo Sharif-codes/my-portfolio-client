@@ -3,7 +3,7 @@ const AboutTabs = ({setSelectedTabs,selectedTabs}) => {
      
    
     return (
-         <div className="flex md:gap-12 gap-7">
+         <div className="flex md:gap-12 gap-4">
             <div className="text-sm lg:text-md">
               <button onClick={()=>setSelectedTabs("education")} className={`${selectedTabs === "education" ? "text-orange-500 border-b" : ""} cursor-pointer`}>Education</button>
             </div>

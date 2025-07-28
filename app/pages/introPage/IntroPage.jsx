@@ -9,9 +9,10 @@ const IntroPage = () => {
     return (
 
         <div className="flex mt-20 gap-2 lg:gap-4 items-center justify-center">
-            <div className="w-3/5 lg:w-1/2 space-y-2  md:space-y-3 mx-auto">
+            <div className="w-3/5 lg:w-1/2 space-y-1.5 lg:space-y-3 mx-auto">
                 <div>
-                    <h2 className="text-[16px] md:text-3xl font-bold text-orange-500">MD Shariful Islam Bhuyan</h2>
+                    <h2 className="text-[15px] md:text-3xl font-bold text-orange-500">MD Shariful Islam Bhuyan</h2>
+                 
                 </div>
                 <div>
                     <p className="text-xs md:text-2xl font-semibold">And I'm a <span className="text-orange-500"><TypeName></TypeName></span></p>
@@ -37,15 +38,13 @@ const IntroPage = () => {
                     <a 
                     href="/resume_sharif.pdf"
                     download
-                    className="btn btn-sm md:btn-md text-[10px] md:text-lg bg-orange-500 hover:bg-transparent hover:text-orange-500 rounded-md flex justify-center items-center"
-                    > <MdDownload className="text-sm md:text-lg"></MdDownload>  Download CV </a>
-
+                    className="btn btn-sm md:btn-md text-[10px] md:text-sm bg-orange-500 hover:bg-transparent hover:text-orange-500 rounded-md flex justify-center items-center"
+                    > <MdDownload className="hidden md:flex text-sm md:text-lg"></MdDownload>  Download CV </a>
                     <Link href="tel:+8801777456044" className="flex items-center lg:gap-1 gap-x-0.5 text-[11px] md:text-lg"><MdWifiCalling3 className='cursor-pointer text-orange-500 text-lg lg:text-2xl' /> <span>+8801777456044</span></Link>
                    
                 </div>
             </div>
-
-            <div className="w-2/5 md:w-1/2 ml-0 md:ml-4  flex justify-center  items-center ">
+            <div className="w-2/5 md:w-1/2 ml-0 md:ml-4  flex justify-center mask-image-bottom ">
                 <Image
                     src={img}
                     alt="sharif"
@@ -54,6 +53,8 @@ const IntroPage = () => {
                     placeholder="blur"
                     className="image-fade-right"
                 >
+
+
                 </Image>
             </div>
         </div>

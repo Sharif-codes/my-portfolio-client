@@ -41,7 +41,7 @@ const AboutPage = () => {
         </div>
 
         {/* About Page start */}
-        <div className="md:w-2/3 w-full flex flex-col justify-center items-start ">
+        <div className="md:w-2/3 w-full flex flex-col justify-start items-start ">
           <AboutTabs setSelectedTabs={setSelectedTabs} selectedTabs={selectedTabs}></AboutTabs>
 
           {

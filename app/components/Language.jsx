@@ -2,7 +2,7 @@
 
 const Language = () => {
     return (
-        <div className="mt-2 flex flex-col justify-center items-center text-sm lg:text-md">
+        <div className="mt-2  text-sm lg:text-md">
             <ul className="space-y-1 ">
                 <li className="flex items-center gap-1 text-orange-400">Bengali (native)</li>
                 <li className="flex items-center gap-1 text-orange-400">English (Medium)</li>
