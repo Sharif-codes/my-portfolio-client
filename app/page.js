@@ -11,8 +11,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-      <div className="relative h-full md:min-h-screen m-2 mt-0">
+    <div className="">
+      <div className="relative h-full min-h-screen m-2 mt-0">
         <Image
           src={banner}
           alt="banner"
@@ -22,12 +22,13 @@ export default function Home() {
         >
         </Image>
 
-        <div className="relative z-10">
+        <div className="relative  z-10">
 
           <div className="fixed top-0 left-0 w-full z-50 shadow-md bg-blend-darken  rounded-md m-2 mt-0">
             <Navbar />
           </div>
-          <div className="md:pt-16 py-5 px-4 lg:px-50">
+
+          <div className=" h-full pt-20 md:pt-16 py-5 px-3 lg:px-50">
             <IntroPage />
           </div>
         </div>
@@ -50,7 +51,7 @@ export default function Home() {
       
       <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4 h-full">
         <aside className="flex gap-4">
-          <p className="text-[9px] md:text-md">Copyright © {new Date().getFullYear()} - All right reserved by <span className="text-orange-500">MD Shariful Islam Bhuyan</span></p> 
+          <p className="text-[9px] md:text-lg">Copyright © {new Date().getFullYear()} - All right reserved by <span className="text-orange-500">MD Shariful Islam Bhuyan</span></p> 
           <Link href="#home"  className="text-2xl font-bold animate-bounce text-orange-500 cursor-pointer
           "><GoMoveToTop /></Link>
         </aside>

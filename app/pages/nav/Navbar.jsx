@@ -14,21 +14,21 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li> <button><Link href="#home">Home</Link></button> </li>
-                            <li><button><Link href="#about">About me</Link></button> </li>
-                            <li><button><Link href="#skills">Skills</Link></button></li>
-                            <li><button><Link href="#projects">Projects</Link></button></li>
-                            <li><button><Link href="#contact">Contact Me</Link></button></li>
-                            <li><button>Download CV</button></li>
+                            <li className="hover:text-orange-500"> <button><Link href="#home">Home</Link></button> </li>
+                            <li className="hover:text-orange-500"><button><Link href="#about">About me</Link></button> </li>
+                            <li className="hover:text-orange-500"><button><Link href="#skills">Skills</Link></button></li>
+                            <li className="hover:text-orange-500"><button><Link href="#projects">Projects</Link></button></li>
+                            <li className="hover:text-orange-500"><button><Link href="#contact">Contact Me</Link></button></li>
+                            <li className="hover:text-orange-500"><button>Download CV</button></li>
                         </ul>
                     </div>
-                    <div className="hidden  h-[30px] w-[130px] lg:flex items-center justify-center">
+                    <div className="hidden h-[10px] w-[180px] lg:flex items-center justify-start">
                         <Image
                             src={profile}
                             alt="logo"
-                            width={150}
+                            width={100}
                             height={50}
-                            className="object-contain"
+                            className="object-contain flex justify-start"
                         />
                     </div>
 
@@ -46,11 +46,11 @@ const Navbar = () => {
                 </div>
                 <div className=" hidden navbar-end lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><button><Link href="#home">Home</Link> </button></li>
-                        <li><button><Link href="#about">About me</Link> </button></li>
-                        <li><button><Link href="#skills">Skills</Link></button></li>
-                        <li><button><Link href="#projects">Projects</Link></button></li>
-                        <li><button><Link href="#contact">Contact Me</Link></button></li>
+                        <li className="hover:text-orange-500"><button><Link href="#home">Home</Link> </button></li>
+                        <li className="hover:text-orange-500"><button><Link href="#about">About me</Link> </button></li>
+                        <li className="hover:text-orange-500"><button><Link href="#skills">Skills</Link></button></li>
+                        <li className="hover:text-orange-500"><button><Link href="#projects">Projects</Link></button></li>
+                        <li className="hover:text-orange-500"><button><Link href="#contact">Contact Me</Link></button></li>
                     </ul>
                 </div>
                 <ThemeToggle></ThemeToggle>

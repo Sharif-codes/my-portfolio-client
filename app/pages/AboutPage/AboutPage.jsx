@@ -15,7 +15,7 @@ const AboutPage = () => {
     <div className="mx-4 lg:mx-50 py-5 lg:py-0">
       <h2 className="text-xl lg:text-3xl text-center py-3 lg:py-8">About <span className="text-orange-500">Me</span></h2>
 
-      <div className="flex flex-col lg:flex-row justify-center md:items-start items-center  gap-4 mt-4">
+      <div className="flex flex-col lg:flex-row justify-center md:items-start items-center gap-4 mt-4">
         <div className="md:w-1/3 w-full">
           <div className="mt-10 flex justify-center ">
 

@@ -53,7 +53,7 @@ const SkillsPage = () => {
 
     ]
     return (
-        <div className="mx-4 lg:mx-50 py-5 md:py-5">
+        <div className="mx-4 lg:mx-50 py-5 md:py-0">
             <h2 className="text-xl lg:text-3xl text-center py-4 lg:py-8">My <span className="text-orange-500">SKills</span></h2>
 
             <div className="grid grid-cols-2">
