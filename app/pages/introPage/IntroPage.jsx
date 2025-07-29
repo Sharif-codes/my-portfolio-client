@@ -8,17 +8,17 @@ import TypeName from "@/app/components/TypeName"
 const IntroPage = () => {
     return (
 
-        <div className="flex mt-20 gap-2 lg:gap-4 items-center justify-center">
+        <div className="flex mt-20 gap-4 lg:gap-4 items-center justify-center">
             <div className="w-3/5 lg:w-1/2 space-y-1.5 lg:space-y-3 mx-auto">
                 <div>
-                    <h2 className="text-[15px] md:text-3xl font-bold text-orange-500">MD Shariful Islam Bhuyan</h2>
+                    <h2 className="text-[12px] md:text-3xl font-bold text-orange-500">MD Shariful Islam Bhuyan</h2>
                  
                 </div>
                 <div>
-                    <p className="text-xs md:text-2xl font-semibold">And I'm a <span className="text-orange-500"><TypeName></TypeName></span></p>
+                    <p className="text-[10px] md:text-2xl font-semibold">And I'm a <span className="text-orange-500"><TypeName></TypeName></span></p>
                 </div>
                 <div>
-                    <p className="text-[8px] md:text-sm w-52  lg:w-100  ">I'm a fresh CSE graduate having strong affection to web developement with strong skills in HTML,CSS, JavaScript, Tailwind, React, ExpressJS,MongoDB etc. I have been enhancing my skills by continuously learning new technologies. Looking forward to develop my career as a full-stack web developer.</p>
+                    <p className="text-[8px] md:text-sm w-52  lg:w-100 text-justify  ">I'm a fresh CSE graduate having strong affection to web developement. With strong skills in HTML,CSS, JavaScript, Tailwind, React, ExpressJS,MongoDB etc. I have been enhancing my skills by continuously learning new technologies and project development.</p>
                 </div>
 
                 <div className="flex gap-2 md:gap-8">
@@ -37,10 +37,10 @@ const IntroPage = () => {
                     
                     <a 
                     href="https://drive.google.com/file/d/1gQiNXSOuvf04I3vVZsKV5YRanmJZ7QG3/view?usp=sharing"
-                    download
+                    target="_blank"
                     className="btn btn-sm md:btn-md text-[10px] md:text-sm bg-orange-500 hover:bg-transparent hover:text-orange-500 rounded-md flex justify-center items-center"
                     > <MdDownload className="hidden md:flex text-sm md:text-lg"></MdDownload>  Download CV </a>
-                    <Link href="tel:+8801777456044" className="flex items-center lg:gap-1 gap-x-0.5 text-[11px] md:text-lg"><MdWifiCalling3 className='cursor-pointer text-orange-500 text-sm lg:text-2xl' /> <span>+8801777456044</span></Link>
+                    <Link href="tel:+8801777456044" className="flex items-center lg:gap-1 gap-x-0 text-[11px] md:text-lg"><MdWifiCalling3 className='cursor-pointer text-orange-500 text-sm lg:text-2xl' /> <span>+8801777456044</span></Link>
                    
                 </div>
             </div>

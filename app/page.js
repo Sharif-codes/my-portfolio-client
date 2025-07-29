@@ -51,7 +51,7 @@ export default function Home() {
       
       <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4 h-full">
         <aside className="flex gap-4">
-          <p className="text-[9px] md:text-lg">Copyright © {new Date().getFullYear()} - All right reserved by <span className="text-orange-500">MD Shariful Islam Bhuyan</span></p> 
+          <p className="text-sm md:text-lg flex flex-col md:flex-row"> <span>Copyright © {new Date().getFullYear()} - All right reserved by </span><span className="text-orange-500">MD Shariful Islam Bhuyan</span></p> 
           <Link href="#home"  className="text-2xl font-bold animate-bounce text-orange-500 cursor-pointer
           "><GoMoveToTop /></Link>
         </aside>

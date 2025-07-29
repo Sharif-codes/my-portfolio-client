@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import face from "../../../public/faceimg.jpeg"
+import face from "../../../public/pic-jpg.jpeg"
 import AboutTabs from "@/app/components/AboutTabs";
 import { useState } from "react";
 import Education from "@/app/components/Education";
@@ -24,8 +24,8 @@ const AboutPage = () => {
                 <Image
                   src={face}
                   alt="sharif"
-                  width={95}
-                  className="object-cover rounded-full border-4 border-base-content    "
+                  width={100}
+                  className="object-cover rounded-full border-4 border-base-content"
                   priority
                 >
                 </Image>

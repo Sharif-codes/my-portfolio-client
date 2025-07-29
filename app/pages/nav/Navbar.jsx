@@ -19,9 +19,12 @@ const Navbar = () => {
                             <li className="hover:text-orange-500 flex items-start"><button><Link href="#skills">Skills</Link></button></li>
                             <li className="hover:text-orange-500 flex items-start"><button><Link href="#projects">Projects</Link></button></li>
                             <li className="hover:text-orange-500 flex items-start"><button><Link href="#contact">Contact Me</Link></button></li>
-                            <li className="hover:text-orange-500 flex items-start"><a
-                                href="/resume_sharif.pdf"
-                                download>Download CV</a></li>
+                            <li className="hover:text-orange-500 flex items-start">
+                                <a
+                                    href="https://drive.google.com/file/d/1gQiNXSOuvf04I3vVZsKV5YRanmJZ7QG3/view?usp=sharing"
+                                    target="_blank"
+                                >Download CV</a>
+                            </li>
                             <li className="hover:text-orange-500 flex items-start ml-2"><ThemeToggle></ThemeToggle></li>
 
                         </ul>
