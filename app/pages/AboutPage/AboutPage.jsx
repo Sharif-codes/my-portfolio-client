@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import face from "../../../public/pic-jpg.jpeg"
+import face from "../../../public/resize-16939194991690051919picpngfade.png"
 import AboutTabs from "@/app/components/AboutTabs";
 import { useState } from "react";
 import Education from "@/app/components/Education";
