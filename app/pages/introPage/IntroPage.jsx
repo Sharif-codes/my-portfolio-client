@@ -36,11 +36,11 @@ const IntroPage = () => {
                 <div className="flex gap-1 md:gap-4">
                     
                     <a 
-                    href="/resume_sharif.pdf"
+                    href="https://drive.google.com/file/d/1gQiNXSOuvf04I3vVZsKV5YRanmJZ7QG3/view?usp=sharing"
                     download
                     className="btn btn-sm md:btn-md text-[10px] md:text-sm bg-orange-500 hover:bg-transparent hover:text-orange-500 rounded-md flex justify-center items-center"
                     > <MdDownload className="hidden md:flex text-sm md:text-lg"></MdDownload>  Download CV </a>
-                    <Link href="tel:+8801777456044" className="flex items-center lg:gap-1 gap-x-0.5 text-[11px] md:text-lg"><MdWifiCalling3 className='cursor-pointer text-orange-500 text-lg lg:text-2xl' /> <span>+8801777456044</span></Link>
+                    <Link href="tel:+8801777456044" className="flex items-center lg:gap-1 gap-x-0.5 text-[11px] md:text-lg"><MdWifiCalling3 className='cursor-pointer text-orange-500 text-sm lg:text-2xl' /> <span>+8801777456044</span></Link>
                    
                 </div>
             </div>
