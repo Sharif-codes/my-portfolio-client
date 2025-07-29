@@ -11,7 +11,7 @@ const IntroPage = () => {
         <div className="flex mt-20 gap-4 lg:gap-4 items-center justify-center">
             <div className="w-3/5 lg:w-1/2 space-y-1.5 lg:space-y-3 mx-auto">
                 <div>
-                    <h2 className="text-[12px] md:text-3xl font-bold text-orange-500">MD Shariful Islam Bhuyan</h2>
+                    <h2 className="text-[14px] md:text-3xl font-bold text-orange-500">MD Shariful Islam Bhuyan</h2>
                  
                 </div>
                 <div>
