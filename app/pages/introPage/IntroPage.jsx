@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { GrFacebookOption, GrGithub, GrLinkedinOption, GrMailOption } from "react-icons/gr"
-import img from "../../../public/pic-jpg.jpeg"
+import img from "../../../public/sharif-1.png"
 import Link from "next/link"
 import { MdDownload, MdWifiCalling3 } from "react-icons/md"
 import TypeName from "@/app/components/TypeName"
@@ -32,14 +32,12 @@ const IntroPage = () => {
                     <button className="w-[25px] h-[25px] md:w-8 md:h-8 cursor-pointer border-orange-500  p-0.5 md:p-1.5 rounded-full border flex justify-center items-center"> <Link href={`https://github.com/Sharif-codes`}><GrGithub className="text-orange-500 text-sm md:text-lg"></GrGithub></Link>  </button>
                 </div>
                 <div className="flex gap-1 md:gap-4">
-                    
                     <a 
                     href="https://drive.google.com/file/d/1gQiNXSOuvf04I3vVZsKV5YRanmJZ7QG3/view?usp=sharing"
                     target="_blank"
                     className="btn btn-xs md:btn-md text-[8px] md:text-sm bg-orange-500 hover:bg-transparent hover:text-orange-500 rounded-md flex justify-center items-center"
                     > <MdDownload className="hidden md:flex text-sm md:text-lg"></MdDownload>  Download CV </a>
                     <Link href="tel:+8801777456044" className="flex items-center lg:gap-1 gap-x-0 text-[11px] md:text-lg"><MdWifiCalling3 className='cursor-pointer text-orange-500 text-sm lg:text-2xl' /> <span>+8801777456044</span></Link>
-                   
                 </div>
             </div>
             <div className="w-2/5 md:w-1/2 ml-0 md:ml-4  flex justify-center mask-image-bottom ">

@@ -1,7 +1,6 @@
 
 const AboutTabs = ({setSelectedTabs,selectedTabs}) => {
-     
-   
+  
     return (
          <div className="flex md:gap-12 gap-1.5">
             <div className="text-sm lg:text-md">

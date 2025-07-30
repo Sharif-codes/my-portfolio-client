@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import face from "../../../public/sharif-1.png"
+import face from "../../../public/pic-jpg.jpeg"
 import AboutTabs from "@/app/components/AboutTabs";
 import { useState } from "react";
 import Education from "@/app/components/Education";
