@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { GrFacebookOption, GrGithub, GrLinkedinOption, GrMailOption } from "react-icons/gr"
-import img from "../../../public/sharif-1.png"
+import img from "../../../public/pic-jpg.jpeg"
 import Link from "next/link"
 import { MdDownload, MdWifiCalling3 } from "react-icons/md"
 import TypeName from "@/app/components/TypeName"
