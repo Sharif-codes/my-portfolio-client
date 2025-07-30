@@ -17,7 +17,7 @@ export default function Home() {
           src={banner}
           alt="banner"
           fill
-          className="object-cover z-0 opacity-10 rounded-md"
+          className="object-cover z-0 opacity-25 rounded-md"
           priority
         >
         </Image>

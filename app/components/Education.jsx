@@ -3,6 +3,7 @@
 const Education = () => {
     return (
         <div className="mt-2 space-y-2">
+            
             <div>
                 <p className="text-orange-400 text-sm lg:text-md">BSC in CSE</p>
                 <div className="text-[10px] lg:text-sm">
