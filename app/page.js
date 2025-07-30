@@ -34,7 +34,6 @@ export default function Home() {
         </div>
 
       </div>
-
       <div id="about" className=" h-full lg:h-screen bg-base-300 rounded-md m-2 ">
         <AboutPage ></AboutPage>
       </div>

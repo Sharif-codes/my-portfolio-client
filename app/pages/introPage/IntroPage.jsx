@@ -16,7 +16,7 @@ const IntroPage = () => {
                     <p className="text-[10px] md:text-2xl font-semibold">And I'm a <span className="text-orange-500"><TypeName></TypeName></span></p>
                 </div>
                 <div>
-                    <p className="text-[8px] md:text-xs w-44  lg:w-100 text-justify  ">A fresh CSE graduate having strong affection to web developement. With strong skills in HTML,CSS, JavaScript, Tailwind, React, ExpressJS,MongoDB etc. I have been enhancing my skills by continuously learning new technologies and project development.</p>
+                    <p className="text-[8px] md:text-xs w-44  lg:w-100 text-justify  ">A fresh CSE graduate having strong affection to web developement. Skilled with MERN stack development. Enhancing skills by continuous learning new technologies and developing projects.</p>
                 </div>
 
                 <div className="flex gap-4 md:gap-8">

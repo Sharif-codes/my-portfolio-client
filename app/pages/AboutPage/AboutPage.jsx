@@ -1,13 +1,12 @@
 "use client"
 import Image from "next/image";
-import face from "../../../public/resize-16939194991690051919picpngfade.png"
+import face from "../../../public/sharif-1.png"
 import AboutTabs from "@/app/components/AboutTabs";
 import { useState } from "react";
 import Education from "@/app/components/Education";
 import Course from "@/app/components/Course";
 import Hobby from "@/app/components/Hobby";
 import Language from "@/app/components/Language";
-
 
 const AboutPage = () => {
   const [selectedTabs, setSelectedTabs] = useState("education")
@@ -30,7 +29,6 @@ const AboutPage = () => {
                 >
                 </Image>
               </div>
-
               <div className="h-full w-full absolute flex flex-col justify-center items-center ">
                 <p className="font-bold mb-2">MD Shariful Islam Bhuyan</p>
                 <p className="font-md mt-1 text-black font-semibold text-sm">CSE Graduate</p>
